@@ -1,0 +1,42 @@
+{
+  "name": "platzigram",
+  "version": "1.0.0",
+  "description": "\"aplicacion en javascript profesional\"",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ing27villadiego/platzigram.git"
+  },
+  "author": "@ing26villadiego",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ing27villadiego/platzigram/issues"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp watch & node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "empty-element": "^1.0.0",
+    "express": "^4.15.5",
+    "intl": "^1.2.5",
+    "intl-messageformat": "^2.1.0",
+    "intl-relativeformat": "^2.0.0",
+    "materialize-css": "^0.100.2",
+    "page": "^1.7.1",
+    "pug": "^2.0.0-rc.4",
+    "superagent": "^3.6.2",
+    "title": "^1.0.0",
+    "yo-yo": "^1.4.1"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  }
+}
